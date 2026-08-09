@@ -1466,29 +1466,29 @@ body::after{
    Bottom navigation bar
 ------------------------------ */
 :root{
-  --bottom-nav-space: 66px;
+  --bottom-nav-space: 84px;
 }
 
 .bottom-nav{
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
   z-index: 40;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2px;
-  max-width: 520px;
+  max-width: 500px;
+  width: calc(100% - 20px);
   margin: 0 auto;
-  padding: 6px 6px calc(6px + env(safe-area-inset-bottom, 0px));
+  padding: 6px;
   background: linear-gradient(180deg, rgba(24, 27, 34, 0.5) 0%, rgba(16, 18, 24, 0.68) 55%, rgba(10, 11, 15, 0.78) 100%);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
   border: 1px solid rgba(255, 255, 255, 0.09);
-  border-bottom: none;
-  border-radius: 18px 18px 0 0;
-  box-shadow: 0 -14px 34px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .bottom-nav::before{
@@ -1570,15 +1570,7 @@ body::after{
 }
 
 .access-head{
-  display: flex;
-  align-items: center;
-  gap: 10px;
   margin-bottom: 10px;
-}
-
-.access-check{
-  font-size: 18px;
-  line-height: 1;
 }
 
 .access-title{
@@ -1587,20 +1579,21 @@ body::after{
   font-weight: 800;
   letter-spacing: 0.4px;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .access-desc{
   margin: 0 0 18px;
   font-size: 14.5px;
   line-height: 1.5;
-  color: rgba(255,255,255,0.88);
+  color: #ffffff;
 }
 
 .access-price{
   margin: -6px 0 18px;
   font-size: 15px;
   font-weight: 700;
-  color: #ffb3a8;
+  color: #ffffff;
 }
 
 .access-checklist{
@@ -1612,22 +1605,9 @@ body::after{
 }
 
 .access-checklist li{
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
   font-size: 14px;
   line-height: 1.4;
-  color: rgba(255,255,255,0.85);
-}
-
-.access-checklist li::before{
-  content: "";
-  flex: none;
-  width: 16px;
-  height: 16px;
-  margin-top: 2px;
-  border-radius: 4px;
-  border: 1.5px solid rgba(255,255,255,0.4);
+  color: #ffffff;
 }
 
 .access-steps-list{
@@ -1636,57 +1616,57 @@ body::after{
   padding: 0;
   display: grid;
   gap: 10px;
-  counter-reset: access-step-counter;
 }
 
 .access-steps-list li{
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
   font-size: 14px;
   line-height: 1.4;
-  color: rgba(255,255,255,0.9);
-}
-
-.access-steps-list li::before{
-  counter-increment: access-step-counter;
-  content: counter(access-step-counter);
-  flex: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(224, 24, 24, 0.85);
-  color: #fff;
-  font-size: 11px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: #ffffff;
 }
 
 .access-note{
   margin: 0 0 18px;
   font-size: 13px;
-  color: rgba(255,255,255,0.65);
+  color: #ffffff;
 }
 
 .access-actions{
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 10px;
 }
 
 .access-btn{
-  width: 100%;
-  display: flex;
+  width: auto;
+  max-width: 100%;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   font-size: 13px;
   min-width: 0;
+  padding: 14px 26px;
+  white-space: nowrap;
 }
 
-.access-btn-icon{
-  font-size: 15px;
+.access-back{
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 6px 4px;
+  margin-top: 2px;
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.access-back:hover{
+  opacity: 0.8;
 }
 
 .wallet-box{
@@ -1700,7 +1680,7 @@ body::after{
 .wallet-box__hint{
   margin: 0 0 8px;
   font-size: 12.5px;
-  color: rgba(255,255,255,0.6);
+  color: #ffffff;
 }
 
 .wallet-box__row{
@@ -1745,11 +1725,11 @@ body::after{
 .access-network{
   margin: 0 0 6px;
   font-size: 13.5px;
-  color: rgba(255,255,255,0.85);
+  color: #ffffff;
 }
 
 .access-warning{
   margin: 0 0 18px;
   font-size: 12.5px;
-  color: #ffcf8f;
+  color: #ffffff;
 }
