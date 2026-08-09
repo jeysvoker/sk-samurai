@@ -665,6 +665,16 @@ body::after{
   transition: transform .18s ease, opacity .18s ease, border-color .18s ease, background .18s ease;
 }
 
+.reviews-title--price{
+  border: none;
+  cursor: default;
+}
+
+.reviews-title--price:hover{
+  border: none;
+  transform: none;
+}
+
 .reviews-title__icon{
   font-size: 0.95em;
   opacity: .85;

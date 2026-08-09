@@ -108,7 +108,7 @@ const translations = {
       bigBlock: "Становление вас профитным трейдером с сильными профессиональными навыками, самостоятельная уверенная торговля, построенный долгосрочный план трейдера: цели, капитал, масштабирование",
       reviewsTitle: "ОТЗЫВЫ УЧЕНИКОВ",
       storyAria: "Отзывы (карусель)",
-      price: "ЦЕНА ОБУЧЕНИЯ — 1499$"
+      price: "ЦЕНА — 1499$"
     },
     quantum: {
       sectionAria: "Детали: QUANTUM",
@@ -150,7 +150,7 @@ const translations = {
       resultText: "Вы научитесь эффективно использовать своё время не только за чартами, но и вне их, качественно проводить аналитику рынков, ответственно принимать торговые решения. Вы перенимете лучший практический опыт наших менторов. Сформируете прибыльную гибкую адаптивную торговую стратегию, в которой будете уверены всегда!",
       reviewsTitle: "ОТЗЫВЫ УЧЕНИКОВ",
       storyAria: "Отзывы QUANTUM (карусель)",
-      price: "ЦЕНА ОБУЧЕНИЯ — 2299$"
+      price: "ЦЕНА — 2299$"
     },
     training: {
       sectionAria: "Обучение",
@@ -264,7 +264,7 @@ const translations = {
       bigBlock: "Формування вас як прибуткового трейдера з сильними професійними навичками, самостійна впевнена торгівля, побудований довгостроковий план трейдера: цілі, капітал, масштабування",
       reviewsTitle: "ВІДГУКИ УЧНІВ",
       storyAria: "Відгуки (карусель)",
-      price: "ЦІНА НАВЧАННЯ — 1499$"
+      price: "ЦІНА — 1499$"
     },
     quantum: {
       sectionAria: "Деталі: QUANTUM",
@@ -306,7 +306,7 @@ const translations = {
       resultText: "Ви навчитеся ефективно використовувати свій час не лише за чартами, а й поза ними, якісно проводити аналітику ринків, відповідально приймати торгові рішення. Ви переймете найкращий практичний досвід наших менторів. Сформуєте прибуткову гнучку адаптивну торгову стратегію, у якій будете впевнені завжди!",
       reviewsTitle: "ВІДГУКИ УЧНІВ",
       storyAria: "Відгуки QUANTUM (карусель)",
-      price: "ЦІНА НАВЧАННЯ — 2299$"
+      price: "ЦІНА — 2299$"
     },
     training: {
       sectionAria: "Навчання",
@@ -420,7 +420,7 @@ const translations = {
       bigBlock: "Your path to becoming a profitable trader with strong professional skills, confident independent trading, and a long-term trader plan: goals, capital, and scaling",
       reviewsTitle: "STUDENT REVIEWS",
       storyAria: "Reviews (carousel)",
-      price: "TRAINING PRICE — $1499"
+      price: "PRICE — $1499"
     },
     quantum: {
       sectionAria: "Details: QUANTUM",
@@ -462,7 +462,7 @@ const translations = {
       resultText: "You will learn to use your time effectively not only at the charts but also away from them, perform high-quality market analysis, and make responsible trading decisions. You will absorb the best practical experience from our mentors. You will build a profitable, flexible, adaptive trading strategy that you can always trust!",
       reviewsTitle: "STUDENT REVIEWS",
       storyAria: "QUANTUM reviews (carousel)",
-      price: "TRAINING PRICE — $2299"
+      price: "PRICE — $2299"
     },
     training: {
       sectionAria: "Training",
