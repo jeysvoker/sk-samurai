@@ -30,7 +30,7 @@ body::after{
   content:"";
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.35); /* затемнення */
+  background: linear-gradient(180deg, rgba(6,7,10,0.55) 0%, rgba(6,7,10,0.4) 30%, rgba(6,7,10,0.5) 70%, rgba(6,7,10,0.65) 100%);
   z-index: -1;
 }
 
@@ -99,7 +99,7 @@ body::after{
    Cards
 ------------------------------ */
 .card{
-  background: rgba(92, 74, 60, 0.78);
+  background: rgba(26, 30, 38, 0.72);
   border-radius: 26px;
   overflow: hidden;
   margin: 16px auto;
@@ -536,7 +536,7 @@ body::after{
 }
 
 .q-item{
-  background: rgba(92, 74, 60, 0.78);
+  background: rgba(26, 30, 38, 0.72);
   border-radius: 22px;
   padding: 18px 18px;
   font-size: clamp(18px, 2.1vw, 28px);
@@ -559,7 +559,7 @@ body::after{
 .q-result{
   width: min(820px, 100%);
   margin: 8px auto 8px;
-  background: rgba(92, 74, 60, 0.78);
+  background: rgba(26, 30, 38, 0.72);
   border-radius: 26px;
   padding: 22px 20px;
   font-size: clamp(18px, 2.1vw, 28px);
@@ -936,7 +936,7 @@ body::after{
 }
 
 .chat-benefits {
-  background: rgba(60, 45, 35, 0.85);
+  background: rgba(22, 26, 34, 0.85);
   border-radius: 24px;
   padding: 24px;
 }
@@ -1004,7 +1004,7 @@ body::after{
 ================================ */
 
 .pill {
-  background: rgba(120, 90, 65, 0.45); /* коричневий фон */
+  background: rgba(52, 60, 74, 0.42); /* коричневий фон */
   color: #ffffff;
 
   border-radius: 20px;
@@ -1034,7 +1034,7 @@ body::after{
 
 /* Формат работы */
 .card--quantum-details .q-item {
-  background: rgba(120, 90, 65, 0.45); /* коричневий фон */
+  background: rgba(52, 60, 74, 0.42); /* коричневий фон */
   border-radius: 28px;
   padding: 18px 24px;
   margin-bottom: 14px;
@@ -1042,7 +1042,7 @@ body::after{
 
 /* Что входит */
 .card--quantum-details .q-includes > div {
-  background: rgba(120, 90, 65, 0.45); /* коричневий фон */
+  background: rgba(52, 60, 74, 0.42); /* коричневий фон */
   border-radius: 28px;
   padding: 18px 24px;
   margin-bottom: 14px;
@@ -1050,14 +1050,14 @@ body::after{
 
 /* Результат */
 .card--quantum-details .q-result {
-  background: rgba(120, 90, 65, 0.45); /* коричневий фон */
+  background: rgba(52, 60, 74, 0.42); /* коричневий фон */
   border-radius: 28px;
   padding: 22px 26px;
 }
 
 /* Mentor — make big-block same brown as pills */
 .card--transparent .big-block {
-  background: rgba(110, 85, 60, 0.45); /* той самий коричневий */
+  background: rgba(52, 60, 74, 0.42); /* той самий коричневий */
   border-radius: 28px;
   padding: 22px 26px;
   color: #fff;
@@ -1255,7 +1255,7 @@ body::after{
   min-width: 208px;
   padding: 8px;
   border-radius: 18px;
-  background: rgba(32, 26, 22, 0.92);
+  background: rgba(18, 20, 26, 0.92);
   border: 1px solid rgba(255,255,255,0.12);
   box-shadow: 0 18px 42px rgba(0,0,0,0.34);
   backdrop-filter: blur(14px);
@@ -1472,10 +1472,10 @@ body::after{
   max-width: 640px;
   margin: 0 auto;
   padding: 10px 10px calc(10px + env(safe-area-inset-bottom, 0px));
-  background: linear-gradient(180deg, rgba(64, 34, 92, 0.46) 0%, rgba(38, 18, 56, 0.66) 55%, rgba(24, 11, 38, 0.76) 100%);
+  background: linear-gradient(180deg, rgba(24, 27, 34, 0.5) 0%, rgba(16, 18, 24, 0.68) 55%, rgba(10, 11, 15, 0.78) 100%);
   backdrop-filter: blur(20px) saturate(150%);
   -webkit-backdrop-filter: blur(20px) saturate(150%);
-  border: 1px solid rgba(200, 160, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.09);
   border-bottom: none;
   border-radius: 22px 22px 0 0;
   box-shadow: 0 -14px 34px rgba(0, 0, 0, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.06);
@@ -1488,7 +1488,7 @@ body::after{
   left: 18%;
   right: 18%;
   height: 1px;
-  background: linear-gradient(90deg, rgba(168, 85, 247, 0) 0%, rgba(196, 130, 255, 0.65) 50%, rgba(168, 85, 247, 0) 100%);
+  background: linear-gradient(90deg, rgba(224, 24, 24, 0) 0%, rgba(255, 90, 70, 0.6) 50%, rgba(224, 24, 24, 0) 100%);
 }
 
 .bottom-nav__item{
