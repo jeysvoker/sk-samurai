@@ -41,11 +41,121 @@
               <div class="pill" data-i18n="chat.pill6">Вечірній стрим за підсумками тижня (щоп’ятниці) — розбір помилок учасників</div>
             </div>
 
-            <div class="cta-row cta-row--split">
-              <a class="btn btn--primary btn--join" href="https://t.me/RATES_AND_PAYMENT_bot" target="_blank" rel="noopener" data-i18n="common.join">ПРИЄДНАТИСЯ</a>
-            </div>
           </div>
         </article>
+
+        <div class="access-wizard" id="access-wizard">
+          <!-- Крок 1: вибір типу доступу -->
+          <div class="access-step" data-step="choice">
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.accessChoiceTitle">ОБЕРІТЬ ДОСТУП</h3>
+            </div>
+            <p class="access-desc" data-i18n="chat.accessChoiceDesc">Будь ласка, оберіть варіант доступу в закритий чат</p>
+            <div class="access-actions">
+              <button type="button" class="btn btn--ghost access-btn" data-goto="ref-intro">
+                <span class="access-btn-icon">🔗</span>
+                <span data-i18n="chat.accessReferralBtn">РЕФЕРАЛЬНИЙ ДОСТУП</span>
+              </button>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="paid-info">
+                <span class="access-btn-icon">💰</span>
+                <span data-i18n="chat.accessPaidBtn">ПЛАТНИЙ ДОСТУП</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Реферальний доступ: крок 1 — про компанію -->
+          <div class="access-step" data-step="ref-intro" hidden>
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.refIntroTitle">БЕЗКОШТОВНИЙ ДОСТУП</h3>
+            </div>
+            <p class="access-desc" data-i18n="chat.refIntroText">Отримайте довічний доступ за партнерським посиланням із депозитом від 200$</p>
+            <ul class="access-checklist">
+              <li data-i18n="chat.refCheck1">Ознайомтесь із Forex-компанією</li>
+              <li data-i18n="chat.refCheck2">Натисніть «Продовжити», щоб почати реєстрацію</li>
+            </ul>
+            <div class="access-actions">
+              <a class="btn btn--ghost access-btn" href="https://regal-eocursor-ba6.notion.site/FxPro-165fbb7364fe805d9a84fd5944b085ef?source=copy_link" target="_blank" rel="noopener" data-i18n="chat.aboutFxproBtn">ПРО КОМПАНІЮ FXPRO</a>
+              <button type="button" class="btn btn--primary access-btn" data-goto="ref-instructions" data-i18n="chat.continueBtn">ПРОДОВЖИТИ</button>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="choice" data-i18n="chat.backBtn">НАЗАД</button>
+            </div>
+          </div>
+
+          <!-- Реферальний доступ: крок 2 — інструкція -->
+          <div class="access-step" data-step="ref-instructions" hidden>
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.refInstrTitle">ІНСТРУКЦІЯ</h3>
+            </div>
+            <ol class="access-steps-list">
+              <li data-i18n="chat.refStep1">Натисни «Реєстрація»</li>
+              <li data-i18n="chat.refStep2">Проходиш реєстрацію</li>
+              <li data-i18n="chat.refStep3">Проходиш верифікацію</li>
+              <li data-i18n="chat.refStep4">Поповни торговий рахунок від 200$</li>
+            </ol>
+            <p class="access-note" data-i18n="chat.refReadyNote">Після цього натисни «Готово»</p>
+            <div class="access-actions">
+              <a class="btn btn--ghost access-btn" href="https://fxpro-direct.com/ru/partner/11310160?platform=web" target="_blank" rel="noopener" data-i18n="chat.registerBtn">РЕЄСТРАЦІЯ</a>
+              <button type="button" class="btn btn--primary access-btn" data-goto="ref-done" data-i18n="chat.doneBtn">ГОТОВО</button>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="ref-intro" data-i18n="chat.backBtn">НАЗАД</button>
+            </div>
+          </div>
+
+          <!-- Реферальний доступ: крок 3 — написати менеджеру -->
+          <div class="access-step" data-step="ref-done" hidden>
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.refDoneTitle">ВІДМІННО</h3>
+            </div>
+            <p class="access-desc" data-i18n="chat.refDoneText">Тепер напиши менеджеру. Він перевірить виконання інструкції та відкриє вам доступ у закритий чат</p>
+            <div class="access-actions">
+              <a class="btn btn--primary access-btn" href="https://t.me/manager_sk_ua" target="_blank" rel="noopener" data-i18n="chat.contactManagerBtn">НАПИСАТИ МЕНЕДЖЕРУ</a>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="ref-instructions" data-i18n="chat.backBtn">НАЗАД</button>
+            </div>
+          </div>
+
+          <!-- Платний доступ: крок 1 — інформація -->
+          <div class="access-step" data-step="paid-info" hidden>
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.paidInfoTitle">ПЛАТНИЙ ДОСТУП</h3>
+            </div>
+            <p class="access-desc" data-i18n="chat.paidInfoDesc">Доступ із власним Prop / Live рахунком</p>
+            <p class="access-price" data-i18n="chat.paidPrice">Ціна 49$ місяць</p>
+            <div class="access-actions">
+              <button type="button" class="btn btn--primary access-btn" data-goto="paid-pay" data-i18n="chat.payBtn">ОПЛАТИТИ ДОСТУП — USDT / TRC20</button>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="choice" data-i18n="chat.backBtn">НАЗАД</button>
+            </div>
+          </div>
+
+          <!-- Платний доступ: крок 2 — реквізити -->
+          <div class="access-step" data-step="paid-pay" hidden>
+            <div class="access-head">
+              <span class="access-check">✅</span>
+              <h3 class="access-title" data-i18n="chat.payTitle">Для оплати криптою здійсніть переказ 49$ за реквізитами нижче</h3>
+            </div>
+
+            <div class="wallet-box">
+              <p class="wallet-box__hint" data-i18n="chat.copyHint">Скопіюйте адресу для оплати</p>
+              <div class="wallet-box__row">
+                <span class="wallet-box__address">TJ1zxPC26iV64qTiEa5rZTKNy17Evv8sGL</span>
+                <button type="button" class="wallet-box__copy" data-copy-wallet="TJ1zxPC26iV64qTiEa5rZTKNy17Evv8sGL">
+                  📋 <span data-copy-label data-i18n="chat.copyBtnLabel">Копіювати</span>
+                </button>
+              </div>
+            </div>
+
+            <p class="access-network" data-i18n="chat.networkLabel">Мережа: USDT-TRC20</p>
+            <p class="access-warning" data-i18n="chat.networkWarning">Будьте уважні та враховуйте комісію</p>
+            <p class="access-note" data-i18n="chat.afterPayNote">Після оплати надішліть менеджеру скрін оплати</p>
+
+            <div class="access-actions">
+              <a class="btn btn--primary access-btn" href="https://t.me/manager_sk_ua" target="_blank" rel="noopener" data-i18n="chat.contactManagerBtn">НАПИСАТИ МЕНЕДЖЕРУ</a>
+              <button type="button" class="btn btn--ghost access-btn" data-goto="paid-info" data-i18n="chat.backBtn">НАЗАД</button>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer class="footer">

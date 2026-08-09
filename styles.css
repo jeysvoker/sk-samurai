@@ -1550,3 +1550,206 @@ body::after{
   .bottom-nav__label{ font-size: 7.8px; }
   .bottom-nav__icon{ width: 16px; height: 16px; }
 }
+
+/* -----------------------------
+   Access wizard (Закритий чат)
+------------------------------ */
+.access-wizard{
+  width: min(560px, 100%);
+  margin: 24px auto 0;
+  background: rgba(18, 20, 26, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  overflow: hidden;
+}
+
+.access-step{
+  padding: 22px 22px 20px;
+}
+
+.access-head{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.access-check{
+  font-size: 18px;
+  line-height: 1;
+}
+
+.access-title{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.access-desc{
+  margin: 0 0 18px;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: rgba(255,255,255,0.88);
+}
+
+.access-price{
+  margin: -6px 0 18px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffb3a8;
+}
+
+.access-checklist{
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.access-checklist li{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.85);
+}
+
+.access-checklist li::before{
+  content: "";
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  border-radius: 4px;
+  border: 1.5px solid rgba(255,255,255,0.4);
+}
+
+.access-steps-list{
+  list-style: none;
+  margin: 0 0 14px;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  counter-reset: access-step-counter;
+}
+
+.access-steps-list li{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgba(255,255,255,0.9);
+}
+
+.access-steps-list li::before{
+  counter-increment: access-step-counter;
+  content: counter(access-step-counter);
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(224, 24, 24, 0.85);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.access-note{
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+}
+
+.access-actions{
+  display: grid;
+  gap: 10px;
+}
+
+.access-btn{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 13px;
+  min-width: 0;
+}
+
+.access-btn-icon{
+  font-size: 15px;
+}
+
+.wallet-box{
+  margin: 4px 0 18px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background: rgba(0,0,0,0.35);
+  border: 1px dashed rgba(255,255,255,0.22);
+}
+
+.wallet-box__hint{
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  color: rgba(255,255,255,0.6);
+}
+
+.wallet-box__row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wallet-box__address{
+  flex: 1 1 auto;
+  font-size: 13px;
+  word-break: break-all;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #fff;
+}
+
+.wallet-box__copy{
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.18);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.wallet-box__copy:hover{
+  background: rgba(255,255,255,0.18);
+}
+
+.wallet-box__copy.is-copied{
+  background: rgba(60, 190, 110, 0.35);
+  border-color: rgba(60, 190, 110, 0.5);
+}
+
+.access-network{
+  margin: 0 0 6px;
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.85);
+}
+
+.access-warning{
+  margin: 0 0 18px;
+  font-size: 12.5px;
+  color: #ffcf8f;
+}

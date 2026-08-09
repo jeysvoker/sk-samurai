@@ -94,7 +94,40 @@ const translations = {
       pill4: "Работа с личным депозитом<br />Работа с проп-счётом",
       pill5: "Обучение с нуля: 5 структурированных уроков, сопровождение от опытных участников закрытого чата",
       pill6: "Вечерний стрим по итогам недели (каждую пятницу) — разбор ошибок участников",
-      storyAria: "Закрытый чат (карусель)"
+      storyAria: "Закрытый чат (карусель)",
+      accessChoiceTitle: "ВЫБЕРИТЕ ДОСТУП",
+      accessChoiceDesc: "Пожалуйста, выберите вариант доступа в закрытый чат",
+      accessReferralBtn: "РЕФЕРАЛЬНЫЙ ДОСТУП",
+      accessPaidBtn: "ПЛАТНЫЙ ДОСТУП",
+      refIntroTitle: "БЕСПЛАТНЫЙ ДОСТУП",
+      refIntroText: "Получите пожизненный доступ по партнёрской ссылке с депозитом от 200$",
+      refCheck1: "Ознакомьтесь с Forex-компанией",
+      refCheck2: "Нажмите «Продолжить», чтобы начать регистрацию",
+      aboutFxproBtn: "О КОМПАНИИ FXPRO",
+      continueBtn: "ПРОДОЛЖИТЬ",
+      backBtn: "НАЗАД",
+      refInstrTitle: "ИНСТРУКЦИЯ",
+      refStep1: "Нажми «Регистрация»",
+      refStep2: "Проходишь регистрацию",
+      refStep3: "Проходишь верификацию",
+      refStep4: "Пополни торговый счёт от 200$",
+      refReadyNote: "После этого нажми «Готово»",
+      registerBtn: "РЕГИСТРАЦИЯ",
+      doneBtn: "ГОТОВО",
+      refDoneTitle: "ОТЛИЧНО",
+      refDoneText: "Теперь напиши менеджеру. Он проверит выполнение инструкции и откроет вам доступ в закрытый чат",
+      contactManagerBtn: "НАПИСАТЬ МЕНЕДЖЕРУ",
+      paidInfoTitle: "ПЛАТНЫЙ ДОСТУП",
+      paidInfoDesc: "Доступ с собственным Prop / Live счётом",
+      paidPrice: "Цена 49$ месяц",
+      payBtn: "ОПЛАТИТЬ ДОСТУП — USDT / TRC20",
+      payTitle: "Для оплаты криптой совершите перевод 49$ по реквизитам ниже",
+      copyHint: "Скопируйте адрес для оплаты",
+      networkLabel: "Сеть: USDT-TRC20",
+      networkWarning: "Будьте внимательны и учитывайте комиссию",
+      afterPayNote: "После оплаты пришлите менеджеру скрин оплаты",
+      walletCopied: "Адрес скопирован!",
+      copyBtnLabel: "Копировать"
     },
     mentor: {
       sectionAria: "Детали: Менторшип",
@@ -250,7 +283,40 @@ const translations = {
       pill4: "Робота з особистим депозитом<br />Робота з проп-рахунком",
       pill5: "Навчання з нуля: 5 структурованих уроків, супровід від досвідчених учасників закритого чату",
       pill6: "Вечірній стрим за підсумками тижня (щоп’ятниці) — розбір помилок учасників",
-      storyAria: "Закритий чат (карусель)"
+      storyAria: "Закритий чат (карусель)",
+      accessChoiceTitle: "ОБЕРІТЬ ДОСТУП",
+      accessChoiceDesc: "Будь ласка, оберіть варіант доступу в закритий чат",
+      accessReferralBtn: "РЕФЕРАЛЬНИЙ ДОСТУП",
+      accessPaidBtn: "ПЛАТНИЙ ДОСТУП",
+      refIntroTitle: "БЕЗКОШТОВНИЙ ДОСТУП",
+      refIntroText: "Отримайте довічний доступ за партнерським посиланням із депозитом від 200$",
+      refCheck1: "Ознайомтесь із Forex-компанією",
+      refCheck2: "Натисніть «Продовжити», щоб почати реєстрацію",
+      aboutFxproBtn: "ПРО КОМПАНІЮ FXPRO",
+      continueBtn: "ПРОДОВЖИТИ",
+      backBtn: "НАЗАД",
+      refInstrTitle: "ІНСТРУКЦІЯ",
+      refStep1: "Натисни «Реєстрація»",
+      refStep2: "Проходиш реєстрацію",
+      refStep3: "Проходиш верифікацію",
+      refStep4: "Поповни торговий рахунок від 200$",
+      refReadyNote: "Після цього натисни «Готово»",
+      registerBtn: "РЕЄСТРАЦІЯ",
+      doneBtn: "ГОТОВО",
+      refDoneTitle: "ВІДМІННО",
+      refDoneText: "Тепер напиши менеджеру. Він перевірить виконання інструкції та відкриє вам доступ у закритий чат",
+      contactManagerBtn: "НАПИСАТИ МЕНЕДЖЕРУ",
+      paidInfoTitle: "ПЛАТНИЙ ДОСТУП",
+      paidInfoDesc: "Доступ із власним Prop / Live рахунком",
+      paidPrice: "Ціна 49$ місяць",
+      payBtn: "ОПЛАТИТИ ДОСТУП — USDT / TRC20",
+      payTitle: "Для оплати криптою здійсніть переказ 49$ за реквізитами нижче",
+      copyHint: "Скопіюйте адресу для оплати",
+      networkLabel: "Мережа: USDT-TRC20",
+      networkWarning: "Будьте уважні та враховуйте комісію",
+      afterPayNote: "Після оплати надішліть менеджеру скрін оплати",
+      walletCopied: "Адресу скопійовано!",
+      copyBtnLabel: "Копіювати"
     },
     mentor: {
       sectionAria: "Деталі: Менторшип",
@@ -406,7 +472,40 @@ const translations = {
       pill4: "Working with a personal deposit<br />Working with a prop account",
       pill5: "Training from scratch: 5 structured lessons with support from experienced private-chat members",
       pill6: "Weekly evening stream every Friday — review of participants’ mistakes",
-      storyAria: "Private chat (carousel)"
+      storyAria: "Private chat (carousel)",
+      accessChoiceTitle: "CHOOSE ACCESS",
+      accessChoiceDesc: "Please choose an access option for the private chat",
+      accessReferralBtn: "REFERRAL ACCESS",
+      accessPaidBtn: "PAID ACCESS",
+      refIntroTitle: "FREE ACCESS",
+      refIntroText: "Get lifetime access via the partner link with a deposit from $200",
+      refCheck1: "Check out the Forex company",
+      refCheck2: "Press \"Continue\" to start registration",
+      aboutFxproBtn: "ABOUT FXPRO",
+      continueBtn: "CONTINUE",
+      backBtn: "BACK",
+      refInstrTitle: "INSTRUCTIONS",
+      refStep1: "Press \"Register\"",
+      refStep2: "Complete registration",
+      refStep3: "Complete verification",
+      refStep4: "Fund your trading account with $200+",
+      refReadyNote: "Then press \"Done\"",
+      registerBtn: "REGISTER",
+      doneBtn: "DONE",
+      refDoneTitle: "GREAT",
+      refDoneText: "Now message the manager. They'll verify you completed the steps and open your access to the private chat",
+      contactManagerBtn: "MESSAGE MANAGER",
+      paidInfoTitle: "PAID ACCESS",
+      paidInfoDesc: "Access with your own Prop / Live account",
+      paidPrice: "Price $49 / month",
+      payBtn: "PAY FOR ACCESS — USDT / TRC20",
+      payTitle: "To pay with crypto, transfer $49 to the details below",
+      copyHint: "Copy the payment address",
+      networkLabel: "Network: USDT-TRC20",
+      networkWarning: "Please double-check and account for network fees",
+      afterPayNote: "After payment, send the manager a screenshot of the payment",
+      walletCopied: "Address copied!",
+      copyBtnLabel: "Copy"
     },
     mentor: {
       sectionAria: "Details: Mentorship",
@@ -679,6 +778,57 @@ document.addEventListener("DOMContentLoaded", () => {
     prevSel: "[data-story-prev-3]",
     nextSel: "[data-story-next-3]"
   });
+
+  // ---------- Access wizard (Закритий чат: referral / paid) ----------
+  const accessWizard = $("#access-wizard");
+  if (accessWizard) {
+    accessWizard.addEventListener("click", (event) => {
+      const gotoBtn = event.target.closest("[data-goto]");
+      if (gotoBtn) {
+        const target = gotoBtn.getAttribute("data-goto");
+        $$(".access-step", accessWizard).forEach((step) => {
+          step.hidden = step.getAttribute("data-step") !== target;
+        });
+        return;
+      }
+
+      const copyBtn = event.target.closest("[data-copy-wallet]");
+      if (copyBtn) {
+        const address = copyBtn.getAttribute("data-copy-wallet");
+        const label = copyBtn.querySelector("[data-copy-label]");
+        const originalText = label ? label.textContent : "";
+
+        const finishCopy = () => {
+          if (!label) return;
+          const copiedText = t(getLanguage(), "chat.walletCopied") || "Copied!";
+          label.textContent = copiedText;
+          copyBtn.classList.add("is-copied");
+          setTimeout(() => {
+            label.textContent = originalText;
+            copyBtn.classList.remove("is-copied");
+          }, 1600);
+        };
+
+        const fallbackCopy = () => {
+          const tmp = document.createElement("textarea");
+          tmp.value = address;
+          tmp.style.position = "fixed";
+          tmp.style.opacity = "0";
+          document.body.appendChild(tmp);
+          tmp.select();
+          try { document.execCommand("copy"); } catch (e) {}
+          document.body.removeChild(tmp);
+          finishCopy();
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(address).then(finishCopy).catch(fallbackCopy);
+        } else {
+          fallbackCopy();
+        }
+      }
+    });
+  }
 
   applyTranslations(getLanguage());
 });
