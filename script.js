@@ -54,7 +54,7 @@ const translations = {
     home: {
       heroSubtitle: "ТРЕЙДИНГ ЭТО ПРОФЕССИЯ",
       disclaimerKicker: "DISCLAIMER",
-      disclaimerText: "мы не заинтересованы уговаривать никого из вас, упросить никого из вас, мы заинтересованы в тех людях, которые понимают что мы даем людям возможность, мы сами зарабатываем деньги и рады когда люди зарабатывают их с нами",
+      disclaimerText: "я не заинтересован уговаривать никого из вас, упрашивать никого из вас, я заинтересован в тех людях, которые понимают что я даю людям возможность, я сам зарабатываю деньги и рад когда люди зарабатывают их со мной",
       homeAria: "Главная",
       chatAria: "Закрытый чат",
       chatTitle: "ЗАКРЫТЫЙ ЧАТ",
@@ -243,7 +243,7 @@ const translations = {
     home: {
       heroSubtitle: "ТРЕЙДИНГ — ЦЕ ПРОФЕСІЯ",
       disclaimerKicker: "ДИСКЛЕЙМЕР",
-      disclaimerText: "ми не зацікавлені когось із вас вмовляти чи просити, нас цікавлять люди, які розуміють, що ми даємо можливість, ми самі заробляємо гроші й раді, коли люди заробляють їх разом із нами",
+      disclaimerText: "я не зацікавлений когось із вас вмовляти чи просити, мене цікавлять люди, які розуміють, що я даю можливість, я сам заробляю гроші й радий, коли люди заробляють їх разом зі мною",
       homeAria: "Головна",
       chatAria: "Закритий чат",
       chatTitle: "ЗАКРИТИЙ ЧАТ",
@@ -432,7 +432,7 @@ const translations = {
     home: {
       heroSubtitle: "TRADING IS A PROFESSION",
       disclaimerKicker: "DISCLAIMER",
-      disclaimerText: "we are not interested in persuading or begging anyone here; we are interested in people who understand that we give people an opportunity, we make money ourselves and we are glad when people earn with us",
+      disclaimerText: "I am not interested in persuading or begging anyone here; I am interested in people who understand that I give people an opportunity, I make money myself and I am glad when people earn with me",
       homeAria: "Home",
       chatAria: "Private chat",
       chatTitle: "PRIVATE CHAT",
