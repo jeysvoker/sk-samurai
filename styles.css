@@ -76,10 +76,10 @@ body::after{
 }
 
 .hero__verified{
-  width: 0.44em;
-  height: 0.44em;
+  width: 0.72em;
+  height: 0.72em;
   flex: none;
-  transform: translateY(0.5px);
+  transform: translateY(1px);
 }
 
 .hero__subtitle{
