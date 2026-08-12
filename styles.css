@@ -70,6 +70,16 @@ body::after{
   font-size: clamp(32px, 5vw, 56px);
   font-weight: 800;
   letter-spacing: 1px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero__verified{
+  width: 0.62em;
+  height: 0.62em;
+  flex: none;
+  transform: translateY(1px);
 }
 
 .hero__subtitle{
